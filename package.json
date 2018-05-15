@@ -1,0 +1,18 @@
+{
+  "name": "sky-code-test",
+  "version": "1.0.0",
+  "description": "sky restful api test",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && node index",
+    "start:client": "webpack-dev-server",
+    "start:server": "nodemon",
+    "build": "webpack -p",
+    "seed": "node db/seeds"
+  },
+  "author": "Masee",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
