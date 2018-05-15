@@ -14,6 +14,7 @@
   "author": "Masee",
   "dependencies": {
     "axios": "^0.18.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "package.json": "^2.0.1"
   }
 }
