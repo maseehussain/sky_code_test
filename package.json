@@ -14,6 +14,7 @@
   "author": "Masee",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
     "express": "^4.16.3",
     "package.json": "^2.0.1"
   }
