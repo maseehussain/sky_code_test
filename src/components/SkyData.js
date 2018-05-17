@@ -8,13 +8,12 @@ class SkyData extends React.Component {
 
   componentDidMount() {
     Axios
-    .get('https://my-json-server.typicode.com/sky-uk/monitoring-tech-test/data')
-    .then(res => this.setState({ database: res.data }))
-    .catch(err => console.log(err));
+      .get('https://my-json-server.typicode.com/sky-uk/monitoring-tech-test/data')
+      .then(res => this.setState({ database: res.data }))
+      .catch(err => console.log(err));
   }
 
   render() {
-    console.log('hksjdhfksdhkh', this.state.database);
     return (
       <div className="page-banner col-md-12">
         <div className="index">
