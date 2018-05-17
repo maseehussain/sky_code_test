@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-import Data from './components/Data';
+import SkyData from './components/SkyData';
 
 class App extends React.Component {
 
@@ -11,7 +11,7 @@ class App extends React.Component {
       <main>
         <div className="container">
           <div className="row">
-            <h1>Hello</h1>
+            <SkyData />
           </div>
         </div>
       </main>
