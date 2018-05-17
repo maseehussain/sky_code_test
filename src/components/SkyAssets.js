@@ -26,8 +26,7 @@ class SkyAssets extends React.Component {
                   <h5 className="asset-provider">{asset.provider}</h5>
                   <img src={asset.assetImage} className="asset-image img-responsive"/>
                   <h2 className="asset-description">{asset.description}</h2>
-                  <h4 className="skygo-views">Sky Go views: {asset.skygoTotalViews}</h4>
-                  <h4 className="nowtv-views">NowTV views: {asset.nowtvTotalViews}</h4>
+                  <h4 className="views">Sky Go views: {asset.skygoTotalViews} <br/> NowTV views: {asset.nowtvTotalViews}</h4>
                 </div>
               );
             })}
