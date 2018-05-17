@@ -19,7 +19,7 @@ module.exports = {
   entry: './src/app.js',
   output: {
     path: path.resolve('public'),
-    filename: 'app.js',
+    filename: 'index.js',
     publicPath: '/'
   },
   module: {

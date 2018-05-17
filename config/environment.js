@@ -1,5 +1,6 @@
+const env = process.env.NODE_ENV || 'development';
 const port  = process.env.PORT || 4000;
-const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/sky';
-const secret = 'f^dh@CVis--[P';
+const dbURI = process.env.MONGODB_URI || `mongodb://localhost/code-test-${env}`;
+const secret = process.env.AUTH_SECRET || 'hYgs^=?>@qrTfxLp';
 
-module.exports = { port, dbURI, secret };
+module.exports = { port, dbURI, secret, env };
